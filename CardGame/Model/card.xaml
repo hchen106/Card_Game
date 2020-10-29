@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="CardGame.Model.card"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CardGame.Model"
+             mc:Ignorable="d" Height="140" Width="80">
+    <Grid Margin="10,10,713,322">
+        <Image x:Name="card_image" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="80" Margin="-10,-10,-70,-130" RenderTransformOrigin="0.061,0.513"/>
+    </Grid>
+</UserControl>
